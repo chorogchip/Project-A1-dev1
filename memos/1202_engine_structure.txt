@@ -1,0 +1,53 @@
+
+게임 엔진 아키텍쳐의 Runtime Game Engine Architecture 참고.
+https://www.gameenginebook.com/figures.html
+
+[L1 : 외부 라이브러리]
+- SDL, 소켓
+
+[L2 : 플랫폼 독립 계층]
+- 키워드 매크로
+- atomic, thread 매크로
+- 네트워크 전송 계층(TCP, UDP)
+- Timer
+- I/O
+
+[L3 : 기본 기능]
+- assertion
+- debug
+- logging
+- profiling
+- memory allocation & management
+
+[L4 : 엔진 라이브러리]
+- data structure
+- 문자열, 해싱
+- 유저 정보 수집 / 기록
+- 파서(이미지, CSV, XML등)
+- 수학 라이브러리 (충돌, 곡면, 보간 등)
+- random number generator & PCG
+- localization
+- 비동기 파일 IO
+
+[L5 : 게임 코어 시스템]
+- 오브젝트 핸들 / 고유 id
+- 리소스 매니저 (이미지, 맵 등)
+- 오디오 매니저
+- 네트워크
+
+[L6 : 게임 베이스]
+- 물리
+- 카메라
+- 렌더링
+- 이벤트
+- 오디오
+- 모드
+- 클라이언트 & 서버
+
+[L7 : 게임 로직]
+- 각 엔티티 업데이트
+- 플레이어
+
+[L8 : 게임 흐름 제어]
+- scene
+- 유저 설정
