@@ -13,13 +13,14 @@ https://www.gameenginebook.com/figures.html
 - I/O
 
 [L3 : 기본 기능]
+- error definitions
 - assertion
 - debug
 - logging
 - profiling
-- memory allocation & management
 
 [L4 : 엔진 라이브러리]
+- memory allocation & management
 - data structure
 - 문자열, 해싱
 - 유저 정보 수집 / 기록
